@@ -23,8 +23,8 @@ namespace SW1
         }
         static (double peso, double yen) convertMoney(double mon)
         {
-            double pesoMon = mon * 57.26;
-            double yenMon = mon * 147.67;
+            double pesoMon = mon * 57.17;
+            double yenMon = mon * 146.67;
 
             return (pesoMon, yenMon);
         }
