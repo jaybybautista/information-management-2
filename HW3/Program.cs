@@ -8,22 +8,21 @@ namespace HW3
 {
     class Program
     {
-        
-        static Dictionary<char, int> GetCharFrequency(string input)
+        static void GetCharFrequency(string input, Dictionary<char, int> freq)
         {
-            Dictionary<char, int> freq = new Dictionary<char, int>();
-
             foreach (char c in input)
             {
                 if (c == ' ') continue; 
 
                 if (freq.ContainsKey(c))
-                    freq[c]++;
+                {
+                    freq[c]++; 
+                }
                 else
-                    freq[c] = 1;
+                {
+                    freq[c] = 1; 
+                }
             }
-
-            return freq;
         }
 
         static void Main()
@@ -35,16 +34,20 @@ namespace HW3
 
             foreach (string part in parts)
             {
-                string word = part.Trim(); 
-                Dictionary<char, int> freq = GetCharFrequency(word);
+                string word = part.Trim();
+                Dictionary<char, int> freq = new Dictionary<char, int>();
+
+                GetCharFrequency(word, freq);
 
                 bool first = true;
 
-                foreach (var kvp in freq)
+                foreach (KeyValuePair<char, int> item in freq)
                 {
                     if (!first)
+                    {
                         Console.Write(", ");
-                    Console.Write(kvp.Key + "=" + kvp.Value);
+                    }
+                    Console.Write(item.Key + "=" + item.Value);
                     first = false;
                 }
                 Console.WriteLine();
@@ -53,4 +56,3 @@ namespace HW3
         }
     }
 }
-
