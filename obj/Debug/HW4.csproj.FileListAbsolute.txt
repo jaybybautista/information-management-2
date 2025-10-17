@@ -1,0 +1,11 @@
+C:\Users\My PC\OneDrive\Desktop\HW4\bin\Debug\HW4.exe.config
+C:\Users\My PC\OneDrive\Desktop\HW4\bin\Debug\HW4.exe
+C:\Users\My PC\OneDrive\Desktop\HW4\bin\Debug\HW4.pdb
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.csproj.AssemblyReference.cache
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.Form1.resources
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.Properties.Resources.resources
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.csproj.GenerateResource.cache
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.csproj.CoreCompileInputs.cache
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.exe
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.pdb
+C:\Users\My PC\OneDrive\Desktop\HW4\obj\Debug\HW4.Form2.resources
